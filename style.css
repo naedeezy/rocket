@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+}
+
+.navbar{
+    display: flex;
+    flex-basis: 50%;    
+    padding: 40px;
+}
+.navbar .left{
+    flex-basis: 60%;
+}
+
+.navbar .right  {
+    padding-top: 25px;
+    display: flex;
+}
+
+.opt {
+    padding-right: 50px;
+}
+
+.hero {
+    
+    background-image: linear-gradient(180.43deg, rgba(0,0,0,0.60) 0%, rgba(0,0,0,0.80) 100%), url("hotrod.jpg");
+    background-size: cover!important;
+    background-position: 50%!important;
+    height: 740px;
+    color: white;
+    padding-top: 144px;
+    padding-left: 18px;
+}
+
+.hero .sup {
+    font-size: 50px;
+}
